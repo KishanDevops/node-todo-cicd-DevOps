@@ -2,6 +2,7 @@ version: '3.9'
 
 services:
   web:
+    container_name: node-todo-cicd-Devops
     image: kishan60/node-todo-test:lastest
     ports:
       - "8000:8000"
